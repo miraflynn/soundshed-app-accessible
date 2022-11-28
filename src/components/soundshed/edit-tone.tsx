@@ -37,13 +37,13 @@ const EditToneControl = () => {
     }
 
     //apply edits
-    if (updatedArtistTags != null && updatedArtistTags.filter(t=>t!=null)!=[]) {
+    if (updatedArtistTags != null){ //&& updatedArtistTags.filter(t=>t!=null)!=[]) {
       ToneEditStore.update((s) => {
         s.editTone.artists = updatedArtistTags.filter(t=>t!=null);
       });
     }
 
-    if (updatedCategoryTags != null && updatedCategoryTags.filter(t=>t!=null)!=[]) {
+    if (updatedCategoryTags != null){ //&& updatedCategoryTags.filter(t=>t!=null)!=[]) {
       ToneEditStore.update((s) => {
         s.editTone.categories = updatedCategoryTags.filter(t=>t!=null);
       });
