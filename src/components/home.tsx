@@ -5,13 +5,16 @@ import { HashRouter as Router, Route, NavLink } from "react-router-dom";
 const HomeControl = () => {
   return (
     <div className="home-intro">
+      {/* <script>
+      document.getElementById("DeviceNavlink").click();
+      </script> */}
       <h1>Soundshed</h1>
 
       <p className="info">
         Browse and manage favourite tones, preview or store on your amp. Jam to backing tracks and browse video lessons.
       </p>
 
-      <NavLink to="/tones">
+      <NavLink  to="/tones">
         <section className="nav-section tones">
         <div className="section-container">
           <h2>Tones ▶</h2>
@@ -20,7 +23,7 @@ const HomeControl = () => {
         </section>
       </NavLink>
 
-      <NavLink to="/device" >
+      <NavLink id = "DeviceNavlink" to="/device" >
         <section className="nav-section amp">
         <div className="section-container">
           <h2>Control Your Amp ▶</h2>

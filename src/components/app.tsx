@@ -115,6 +115,9 @@ const App = () => {
   // perform startup
   useEffect(() => {
     console.log("App startup..");
+    console.log("Mira wuz hereeee");
+    document.getElementById("DeviceNavlink").click();
+    
 
     const lastKnownDevices = []; // deviceViewModel.getLastKnownDevices();
     if (lastKnownDevices.length > 0) {
