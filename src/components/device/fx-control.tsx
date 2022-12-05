@@ -76,10 +76,10 @@ const FxControl = ({ fx, onFxParamChange, onFxToggle }) => {
   };
 
   return (
-    <div className="fx">
+    <div className="fx" aria-label = "79">
       <label className="fx-type">{mapFxTypeIdToName(fxTypeId)}</label>
       <div>
-        <h4 className="preset-name">{fx.name}</h4>
+        {/* <h4 className="preset-name">{fx.name}</h4> */}
 
         <select value={fxTypeId} onChange={handleFxChange}>
           {fxList.map((e, key) => {
@@ -102,12 +102,13 @@ const FxControl = ({ fx, onFxParamChange, onFxToggle }) => {
           ""
         )}
 
-        <div className="fx-controls">
+        <div className="fx-controls" aria-label = "label 105">
           <FxParam
             type="switch"
             p="toggle"
             fx={fx}
             onFxParamChange={onFxToggle}
+            aria-label = {fx}
           ></FxParam>
 
           {fx.enabled ? (

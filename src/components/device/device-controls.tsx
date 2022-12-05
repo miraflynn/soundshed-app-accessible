@@ -9,7 +9,7 @@ declare global {
 }
 
 const DeviceControls = () => {
-  const showMainControls = false;
+  const showMainControls = true;
   return (
     <div>
       <div>

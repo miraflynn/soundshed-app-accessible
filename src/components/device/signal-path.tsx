@@ -23,11 +23,12 @@ const SignalPathControl = ({
       return <div>Not Connected</div>;
     } else {
       return t.fx.map((fx) => fx.type!="pg.spark40."? (
-        <td key={fx.type.toString()}>
+        <td>
           <FxControl
             fx={fx}
             onFxParamChange={onFxParamChange}
             onFxToggle={onFxToggle}
+            aria-label = {fx.type.toString()} key={fx.type.toString()}
           ></FxControl>
         </td>
       ):"");

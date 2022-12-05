@@ -58,14 +58,15 @@ const FxParam = ({ type = "knob", p, fx, onFxParamChange }) => {
               customElement = elem;
               if (customElement) customElement.tag = p;
             }}
-            src="./lib/webaudio-controls/knobs/LittlePhatty.png"
+            // src="./lib/webaudio-controls/knobs/LittlePhatty.png"
             min="0"
-            value={p.value}
+            value={Math.round(p.value*100)/100}
             max="1"
-            step="0.01"
+            step="0.1"
             diameter="64"
             tooltip={p.name + " %s"}
-            aria-label = {p.name + ", Value: " + p.value}
+            aria-label = {p.name + " is at " + Math.round(p.value*100)/100}
+            // tabindex='0'
           ></webaudio-knob>
           <label>{p.name}</label>
         </div>
@@ -78,6 +79,7 @@ const FxParam = ({ type = "knob", p, fx, onFxParamChange }) => {
             }}
             src="./lib/webaudio-controls/knobs/switch_toggle.png"
             value={fx.enabled == true ? "1" : "0"}
+            aria-label = {p.name + " is " + (fx.enabled == true ? "enabled" : "disabled")}
           ></webaudio-switch>
         </div>
       )}
