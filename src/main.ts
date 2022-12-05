@@ -73,7 +73,7 @@ function initApp() {
     });
     console.log("Hi mira");
     logInfo("Ugh");
-    document.getElementById("DeviceNavlink").click();
+    // document.getElementById("DeviceNavlink").click();
     console.log("Hi mira");
 }
 

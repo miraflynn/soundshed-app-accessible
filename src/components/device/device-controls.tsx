@@ -28,7 +28,7 @@ const DeviceControls = () => {
                   min="0"
                   max="100"
                 ></webaudio-knob>
-                <label className="control-label">Gain</label>
+                <label aria-label="This is an aria label line 31 device controls" className="control-label">Gain</label>
               </div>
               <div className="col-sm">
                 <webaudio-knob

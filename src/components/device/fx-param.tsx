@@ -65,6 +65,7 @@ const FxParam = ({ type = "knob", p, fx, onFxParamChange }) => {
             step="0.01"
             diameter="64"
             tooltip={p.name + " %s"}
+            aria-label = {p.name + ", Value: " + p.value}
           ></webaudio-knob>
           <label>{p.name}</label>
         </div>
