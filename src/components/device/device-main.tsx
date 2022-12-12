@@ -176,7 +176,7 @@ const DeviceMainControl = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col">
+        <div aria-label="please why are you like this" className="col">
           <SignalPathControl
             signalPathState={currentPreset}
             onFxParamChange={fxParamChange}
