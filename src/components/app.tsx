@@ -115,8 +115,8 @@ const App = () => {
   // perform startup
   useEffect(() => {
     console.log("App startup..");
-    console.log("Mira wuz hereeee");
-    document.getElementById("DeviceNavlink").click();
+    console.log("Mira this is what you want");
+    // document.getElementById("DeviceNavlink").click();
     
 
     const lastKnownDevices = []; // deviceViewModel.getLastKnownDevices();
@@ -156,7 +156,7 @@ const App = () => {
   return (
     <main>
       <Container fluid>
-        <ul className="nav nav-tabs">
+        {/* <ul className="nav nav-tabs">
           <li className="nav-item">
             <NavLink
               to="/"
@@ -255,7 +255,7 @@ const App = () => {
           ) : (
             ""
           )}
-        </ul>
+        </ul> */}
 
         {enableSoundshedLogin ? (
           <LoginControl
@@ -330,9 +330,9 @@ const App = () => {
         <AppViewModelContext.Provider value={appViewModel}>
           <DeviceViewModelContext.Provider value={deviceViewModel}>
             <Routes>
-              <Route path="/" element={<HomeControl />} />
+              <Route path="/home" element={<HomeControl />} />
               <Route
-                path="/device"
+                path="/"
                 element={
                   isNativeMode ? (
                     isConnected ? (
