@@ -1,16 +1,16 @@
 # Loud Cane 2.0 User Guide
 ## Components
-White cane (not included)
-Positive Grid Spark 40 modeling amplifier
-Large power brick with barrel (tube) connector and removable AC cord
-USB-B cable for recording to computer
-Boss WL-20L wireless transmitter and receiver
-Micro-USB charging cable
-Korg CM300BK clip-on contact microphone
-¼” to ¼” audio cable (backup in case wireless transmitter has interference)
-3D-printed cane mount with integrated ¼” to ¼” coupler
-(4x) small Velcro strap
-Large non-slip Velcro strap
+1. White cane (not included)
+2. Positive Grid Spark 40 modeling amplifier
+    1. Large power brick with barrel (tube) connector and removable AC cord
+    2. USB-B cable for recording to computer
+3. Boss WL-20L wireless transmitter and receiver
+    1. Micro-USB charging cable
+4. Korg CM300BK clip-on contact microphone
+5. ¼” to ¼” audio cable (backup in case wireless transmitter has interference)
+6. 3D-printed cane mount with integrated ¼” to ¼” coupler
+7. (4x) small Velcro strap
+8. Large non-slip Velcro strap
 ## Assembly
 ### Step 1: Attaching the Cane Mount
 1. (if using a collapsible cane) extend the cane.
@@ -45,8 +45,8 @@ Large non-slip Velcro strap
 3. Plug the USB end of the micro USB cable into a computer or other powered USB port
 4. Wait at least 5 hours for the wireless system to fully charge. It will stop charging when full. The battery on the wireless system will last about 8-10 hours.
 ## Extra Components
-- (2x) 3D-printed cane mounts
-- (2x) 2 ¼” to ¼” couplers
-- 3D printed cane mount with integrated coupling cable
-- Package of small Velcro straps
-- (4x) large non-slip Velcro strap
+1. (2x) 3D-printed cane mounts
+2. (2x) 2 ¼” to ¼” couplers
+3. 3D printed cane mount with integrated coupling cable
+4. Package of small Velcro straps
+5. (4x) large non-slip Velcro strap
