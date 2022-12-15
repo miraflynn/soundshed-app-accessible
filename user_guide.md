@@ -49,4 +49,4 @@
 2. (2x) 2 ¼” to ¼” couplers
 3. 3D printed cane mount with integrated coupling cable
 4. Package of small Velcro straps
-5. (4x) large non-slip Velcro strap
+5. Package of large non-slip Velcro straps
